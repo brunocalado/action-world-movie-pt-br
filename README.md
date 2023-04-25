@@ -1,5 +1,17 @@
 # Action World Movie - Português (Brasil)
-**Módulo de tradução para Action World Movie**
+**Módulo para Action World Movie em Português (Brasil)**
+
+<table>
+<thead>
+  <tr>
+    <th>
+      <p align="center">
+        <img width="900" src="assets/actor-sheet-preview.webp">
+      </p>
+    </th>
+  </tr>
+</thead>
+</table>
 
 # Aprenda!
 https://youtu.be/HWh4sbjg1ww
