@@ -1,0 +1,77 @@
+# Version: 0.2
+
+# Configure Rolls
+rollFormula = "2d6"
+
+# Configure stat toggle label and formula modifier.
+[statToggle]
+  label = "Marcação"
+  
+# Define roll result ranges.
+[rollResults]
+  [rollResults.failure]
+    range = "6-"
+    label = "Falha"
+  [rollResults.partial]
+    range = "7-9"
+    label = "Sucesso Parcial"
+  [rollResults.success]
+    range = "10+"
+    label = "Sucesso!"
+
+########################################
+## CHARACTERS ##########################
+########################################
+[character]
+
+  [character.stats]
+    agility = "Agilidade"
+    drama = "Drama"
+    muscles = "Músculos"
+    magnetism = "Magnetismo"
+    swagger = "Presunção"
+
+  [character.attributesTop]
+    [character.attributesTop.charactername]
+      type = "Text"
+      label = "Protagonista"  
+    [character.attributesTop.harm]
+      label = "Dano"  
+      type = "Clock"
+      max = 5
+      default = 0
+    [character.attributesTop.xp]
+      type = "Xp"
+      label = "Experiência"
+      max = 5 
+
+  [character.attributesLeft]  
+    [character.attributesLeft.starpower]
+      type = "Number"
+      label = "Poder de Estrela"  
+    [character.attributesLeft.moviename]
+      type = "Text"
+      label = "Nome do Filme"  
+      
+    [character.moveTypes]
+      basic = "Básicos"
+      extra = "Manual"
+      script = "Roteiro"
+      camaradagem = "Camaradagem"
+      
+    [character.equipmentTypes]
+      gear = "Equipamentos"
+  
+########################################
+## NPCS ################################
+########################################
+# Define stats.
+[npc]
+  # Define attributes.
+  [npc.attributesTop]
+
+  [npc.attributesLeft]
+
+  # Define logical groups for moves.
+  [npc.moveTypes]
+    sm = "Special Moves"

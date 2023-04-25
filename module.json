@@ -1,0 +1,55 @@
+{
+  "id":"action-world-movie-pt-br",
+  "title":"Action World Movie - Português (Brasil)",
+  "description":"Action World Movie para usar com o sistema PbtA.",
+  
+  "version":"0.0.1",
+  
+  "authors": [
+    {
+      "name": "Mestre Digital",
+      "url": "https://www.youtube.com/c/MestreDigital",
+      "flags": {}
+    }
+  ],
+  
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  
+  "esmodules": [],
+  "scripts": ["./scripts/init.js"],  
+  "styles": ["./styles/style.css"],  
+  
+  "url":"https://github.com/brunocalado/action-world-movie-pt-br",
+  "manifest": "https://raw.githubusercontent.com/brunocalado/action-world-movie-pt-br/main/module.json",
+  "download": "https://codeload.github.com/brunocalado/action-world-movie-pt-br/zip/main",
+  
+  "languages":[
+      {
+         "lang": "pt-BR",
+         "name": "Português (Brasil)",
+         "path":"pt-br.json"
+      }
+   ],
+
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system"
+      }
+    ]
+  },
+
+  "packs": [
+    {
+      "label": "Action World Movie - Português (Brasil)",
+      "type": "Adventure",
+      "name": "action-world-movie-portugues-brasil",
+      "path": "packs/action-world-movie-portugues-brasil.db",
+      "system": "pbta"
+    }
+  ]
+}
